@@ -1,0 +1,18 @@
+00400000-00401000 r-xp 00000000 00:1b 397770                             /home/eve/Documents/sandbox/exercises/code
+00600000-00601000 r--p 00000000 00:1b 397770                             /home/eve/Documents/sandbox/exercises/code
+00601000-00602000 rw-p 00001000 00:1b 397770                             /home/eve/Documents/sandbox/exercises/code
+7f2c099ee000-7f2c09ba8000 r-xp 00000000 08:01 7737861                    /lib/x86_64-linux-gnu/libc-2.19.so
+7f2c09ba8000-7f2c09da8000 ---p 001ba000 08:01 7737861                    /lib/x86_64-linux-gnu/libc-2.19.so
+7f2c09da8000-7f2c09dac000 r--p 001ba000 08:01 7737861                    /lib/x86_64-linux-gnu/libc-2.19.so
+7f2c09dac000-7f2c09dae000 rw-p 001be000 08:01 7737861                    /lib/x86_64-linux-gnu/libc-2.19.so
+7f2c09dae000-7f2c09db3000 rw-p 00000000 00:00 0 
+7f2c09db3000-7f2c09dd6000 r-xp 00000000 08:01 7737854                    /lib/x86_64-linux-gnu/ld-2.19.so
+7f2c09fbc000-7f2c09fbf000 rw-p 00000000 00:00 0 
+7f2c09fd2000-7f2c09fd5000 rw-p 00000000 00:00 0 
+7f2c09fd5000-7f2c09fd6000 r--p 00022000 08:01 7737854                    /lib/x86_64-linux-gnu/ld-2.19.so
+7f2c09fd6000-7f2c09fd7000 rw-p 00023000 08:01 7737854                    /lib/x86_64-linux-gnu/ld-2.19.so
+7f2c09fd7000-7f2c09fd8000 rw-p 00000000 00:00 0 
+7ffeda674000-7ffeda695000 rw-p 00000000 00:00 0                          [stack]
+7ffeda711000-7ffeda713000 r--p 00000000 00:00 0                          [vvar]
+7ffeda713000-7ffeda715000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]

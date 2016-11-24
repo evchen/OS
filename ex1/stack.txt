@@ -1,0 +1,38 @@
+00400000-00401000 r-xp 00000000 00:1c 397541                             /home/eve/Documents/sandbox/exercises/stack1
+00600000-00601000 r--p 00000000 00:1c 397541                             /home/eve/Documents/sandbox/exercises/stack1
+00601000-00602000 rw-p 00001000 00:1c 397541                             /home/eve/Documents/sandbox/exercises/stack1
+7f760d5ea000-7f760d7a4000 r-xp 00000000 08:01 7737861                    /lib/x86_64-linux-gnu/libc-2.19.so
+7f760d7a4000-7f760d9a4000 ---p 001ba000 08:01 7737861                    /lib/x86_64-linux-gnu/libc-2.19.so
+7f760d9a4000-7f760d9a8000 r--p 001ba000 08:01 7737861                    /lib/x86_64-linux-gnu/libc-2.19.so
+7f760d9a8000-7f760d9aa000 rw-p 001be000 08:01 7737861                    /lib/x86_64-linux-gnu/libc-2.19.so
+7f760d9aa000-7f760d9af000 rw-p 00000000 00:00 0 
+7f760d9af000-7f760d9d2000 r-xp 00000000 08:01 7737854                    /lib/x86_64-linux-gnu/ld-2.19.so
+7f760dbb8000-7f760dbbb000 rw-p 00000000 00:00 0 
+7f760dbce000-7f760dbd1000 rw-p 00000000 00:00 0 
+7f760dbd1000-7f760dbd2000 r--p 00022000 08:01 7737854                    /lib/x86_64-linux-gnu/ld-2.19.so
+7f760dbd2000-7f760dbd3000 rw-p 00023000 08:01 7737854                    /lib/x86_64-linux-gnu/ld-2.19.so
+7f760dbd3000-7f760dbd4000 rw-p 00000000 00:00 0 
+7ffcd194b000-7ffcd196c000 rw-p 00000000 00:00 0                          [stack]
+7ffcd19b5000-7ffcd19b7000 r--p 00000000 00:00 0                          [vvar]
+7ffcd19b7000-7ffcd19b9000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+ 0x7ffcd1969e60     0x3
+ 0x7ffcd1969e68     0xd1969e68
+ 0x7ffcd1969e70     0xd1969ea0
+ 0x7ffcd1969e78     0x4006e9
+ 0x7ffcd1969e80     0x1
+ 0x7ffcd1969e88     0xd1969eb8
+ 0x7ffcd1969e90     0xd9bf530
+ 0x7ffcd1969e98     0x2
+ 0x7ffcd1969ea0     0xd1969f00
+ 0x7ffcd1969ea8     0x400723
+ 0x7ffcd1969eb0     0xdbd31c8
+ 0x7ffcd1969eb8     0x1
+  p: 0x7ffcd1969eb8 
+  back: 0x400723 
+  back: 0x40067d 
+  back: 0x4006c9 
+
+
+ /proc/10668/maps 
+
