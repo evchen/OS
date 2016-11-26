@@ -6,15 +6,16 @@ int main(){
 	int pid = fork();
 	if (pid == 0)
  	{
+		sleep(1);
 		x = 12;	
-		printf(" the process id of child is %d\n",getpid());
-		printf(" Hello, I'm the children and x is %d\n",x);
+		printf(" Hello, I'm the children \t%d \tand x is %d\n",getpid(),x);
 	}
 		else{
-		printf(" the process id of mother is %d\n",getpid());	
+		printf(" my child is %d\n",pid);	
 		x = 13;	
-		printf(" Hello, I'm the mother and x is %d\n",x);
+		printf(" Hello, I'm the mother \t\t%d\tand x is %d\n",getpid(),x);
+		wait(NULL);
 	}
-	//printf(" That's it %d\n", getpid());	
+	printf(" That's it %d\n", getpid());	
 	return 0;
 }
